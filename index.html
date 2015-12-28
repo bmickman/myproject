@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>brandon art</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" type="text/css"/>
+	<link rel="stylesheet" href="bower_components/angular-material/angular-material.layouts.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
+	
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+    <script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-material/angular-material.js"></script>
+	<script src="app.js"></script>
+</head>
+<body >
+
+	<div class="container" ng-app="app">
+		<header ng-include="'templates/header.html'"></header>
+			<div ui-view></div>
+		<footer ng-include="'templates/footer.html'"></footer>
+	</div>
+	
+	<md-toolbar>test</md-toolbar>
+	<md-sidenav>testside</md-sidenav>
+	<md-content>testcontent</md-content>
+
+	<script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.10.1.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+
+</body>
+</html>
